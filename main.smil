@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 1.0//EN" "http://www.w3.org/TR/REC-smil/SMIL10.dtd">
+ <smil>
+	<head>
+	<meta name= "WORLDCUP2010" content= "TOP_GOALS"/>
+	
+		<layout>
+
+			<root-layout width="1920 " height="1080" background-color="transparent" />
+			<region id="video_image" top="0" left="0" width="100%" height="100%" fit="fill"/>
+			<region id="description" top="90%" width="100%" height="150" fit="fill"/>
+
+		</layout>
+	</head>
+	<body> 
+	<par>
+		<seq>
+			<text  region="description"  dur="20s" src="intro.txt"  />
+			<text  region="description"  dur="17s" src="goal5.txt"  />
+			<text  region="description"  dur="13s" src="goal4.txt"  />
+			<text  region="description"  dur="15s" src="goal3.txt"  />
+			<text  region="description"  dur="13s" src="goal2.txt"  />
+			<text  region="description"  dur="20s" src="goal1.txt"    />
+			<text  region="description"  dur="10s" src="end.txt"    />
+			
+		</seq>
+		<seq>
+			<img region="video_image"  src="worldcup1.jpg" dur="5s"  />
+			<img region="video_image"  src="worldcup2.jpg" dur="5s"  />
+			<img region="video_image"  src="worldcup5.jpg" dur="5s"  />
+			<img region="video_image"  src="worldcup3.jpg" dur="5s"  />
+
+			<video region="video_image"  src="goal5.mp4" />
+			<video region="video_image"  src="goal4.mp4" />
+			<video region="video_image"  src="goal3.mp4" />
+			<video region="video_image"  src="goal2.mp4" />
+			<video region="video_image"  src="goal1.mp4" />
+			<img region="video_image"  src="worldcup4.jpg" dur="10s"  />
+		</seq>
+
+		<audio src="Wavin_Flag.mp3" dur="110"/>
+
+ 	</par>
+	</body>
+</smil>
